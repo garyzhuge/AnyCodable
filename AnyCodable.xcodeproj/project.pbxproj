@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		5BB105522906090500ECC34E /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB105512906090500ECC34E /* Example.swift */; };
 		OBJ_30 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AnyCodable.swift */; };
 		OBJ_31 /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* AnyDecodable.swift */; };
 		OBJ_32 /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* AnyEncodable.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BB105512906090500ECC34E /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 		"AnyCodable::AnyCodable::Product" /* AnyCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AnyCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AnyCodable::AnyCodableTests::Product" /* AnyCodableTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnyCodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* AnyDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				5BB105512906090500ECC34E /* Example.swift */,
 				OBJ_8 /* AnyCodable */,
 			);
 			name = Sources;
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				5BB105522906090500ECC34E /* Example.swift in Sources */,
 				OBJ_30 /* AnyCodable.swift in Sources */,
 				OBJ_31 /* AnyDecodable.swift in Sources */,
 				OBJ_32 /* AnyEncodable.swift in Sources */,
